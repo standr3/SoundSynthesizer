@@ -10,7 +10,7 @@ double MakeNoise(double dTime)
     double dOutput = 1.0 * (sin(dFrequencyOutput * (2 * 3.14159) * dTime) 
                     + sin((dFrequencyOutput+ 20.0) * (2 * 3.14159) * dTime));
 
-    return dOutput * 0.3;
+    return dOutput * 0.4;
     /*
     if (dOutput > 0.0)
         return 0.2;
